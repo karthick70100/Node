@@ -7,6 +7,5 @@ app = express()
 
 app.get("/",(req,res)=>{
       res.write("Hello")
-    })
 })
 app.listen(5000) 
